@@ -179,3 +179,7 @@ a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-
   height:85px;
   width:85px;
 }
+
+a, a:hover, .site-branding .main-site-title .site-title a, .entry-title a, h1, h2, h3, h4, h5, h6, .page-numbers a:hover, .page-numbers.current, #attachment .nav-atach a:hover, #respond .comment-form   {
+  color:#313340;
+}
