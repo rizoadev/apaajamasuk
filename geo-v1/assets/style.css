@@ -175,3 +175,6 @@ a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-
   background:transparant;
   padding:0px;
 }
+.home-image-thumbnail img, .featured-image img {
+  height: 45px;
+}
