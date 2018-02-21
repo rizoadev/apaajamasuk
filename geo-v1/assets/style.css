@@ -180,9 +180,9 @@ a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-
   width:85px;
 }
 
-a, a:hover, .site-branding .main-site-title .site-title a, .entry-title a, h1, h2, h3, h4, h5, h6, .page-numbers a:hover, .page-numbers.current, #attachment .nav-atach a:hover, #respond .comment-form   {
-  color:#313340;
+#respond .comment-form .form-submit input[type="submit"], ul.page-numbers a, ul.page-numbers span, #attachment .nav-atach a, #respond .comment-form .form-submit input[type="submit"]:hover, .top-search .search-form .search-field, .widget_search .search-field, #respond .comment-form .comment-form-author input, #respond .comment-form .comment-form-author textarea, #respond .comment-form .comment-form-email input, #respond .comment-form .comment-form-email textarea, #respond .comment-form .comment-form-url input, #respond .comment-form .comment-form-url textarea, #respond .comment-form .comment-form-comment input, #respond .comment-form .comment-form-comment textarea, button, input[type="button"], input[type="reset"], input[type="submit"]:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border-color: #313340;
 }
-ul.page-numbers a {
-  background:#313340;
+.top-navigation, .top-navigation a, #main-menu, #main-menu a, ul.page-numbers a, ul.page-numbers span, .site-footer, #respond .comment-form .form-submit input[type="submit"], .back-top, .page-numbers.current:hover, #attachment .nav-atach a, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #313340;
 }
