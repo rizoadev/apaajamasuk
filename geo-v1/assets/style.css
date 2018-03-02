@@ -1,0 +1,188 @@
+/*
+Theme Name: Twenty Seventeen
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html, body {
+  background:#eee;
+}
+.container {
+  max-width:1080px;
+}
+a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-link:hover {
+  background:#313340;
+  color:#ececec;
+}
+#nv, .nv {
+  background:#313340;
+  color:#fff;
+}
+.navbar-item, .nv a {
+  color:#fff;
+}
+.is-active .navbar-item {
+  color:#333;
+}
+.lg {
+  font-size:18px;
+  font-weight:bold;
+}
+.pop {
+  margin-top:15px;
+}
+.pp h2 {
+
+  color:#111;
+  font-family: Roboto;
+  font-weight:400;
+}
+.pw {
+  padding:0;
+  margin:-25px 0 0 0;
+  background:#fff;
+}
+.pp {
+  padding:0;
+  margin:0;
+  background:#fff;
+  border-top:solid 1px #eee;
+  border-bottom:solid 1px #eee;
+}
+.ds {
+  float:left;
+  width:100%;
+  margin-top:10px;
+  font-size:12px;
+}
+.fb, .vw {
+  width:45%;
+}
+.fb {
+  float:right;
+}
+.vw {
+  float:left;
+}
+.fbb {
+  background:#4267B2;
+  border-radius:3px;
+  color:#fff;
+  padding:1px 8px;
+}
+.jd h1 {
+  color:#111;
+}
+.btn {
+  font-size:13px;
+}
+.sh {
+  position: fixed;
+  bottom:0;
+  padding:10px 0;
+  background:#fff;
+  width:100%;
+  border-top:solid 1px #eee;
+  float:left;
+  text-align:center;
+}
+.btn-fb, .btn-fb:hover {
+  background:#3B5998;
+  border:solid 1px #3B5998;
+  color:#fff;
+}
+.footer {
+  background-color: #f5f5f5;
+  padding:1rem 1.5rem;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+#gb{
+  position:fixed;
+  left:10px;
+  top:140px;
+  z-index:+1000;
+}
+
+* html #gb {position:relative;}
+.gbcontent {
+  float:right;
+  background:transparant;
+  padding:0px;
+}
+.galx img {
+  height:85px;
+  width:85px;
+}
+
+#respond .comment-form .form-submit input[type="submit"], ul.page-numbers a, ul.page-numbers span, #attachment .nav-atach a, #respond .comment-form .form-submit input[type="submit"]:hover, .top-search .search-form .search-field, .widget_search .search-field, #respond .comment-form .comment-form-author input, #respond .comment-form .comment-form-author textarea, #respond .comment-form .comment-form-email input, #respond .comment-form .comment-form-email textarea, #respond .comment-form .comment-form-url input, #respond .comment-form .comment-form-url textarea, #respond .comment-form .comment-form-comment input, #respond .comment-form .comment-form-comment textarea, button, input[type="button"], input[type="reset"], input[type="submit"]:hover, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    border-color: #313340;
+}
+.top-navigation, .top-navigation a, #main-menu, #main-menu a, ul.page-numbers a, ul.page-numbers span, .site-footer, #respond .comment-form .form-submit input[type="submit"], .back-top, .page-numbers.current:hover, #attachment .nav-atach a, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #313340;
+}
